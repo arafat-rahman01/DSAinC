@@ -9,7 +9,8 @@ int main(){
     for(int i=0;i<n-1;i++){
         int sidx=i;
         for(int j=i+1;j<n;j++){
-            if(arr[j]<arr[sidx]){  //Mistake it
+            //small val idx find and store idx
+            if(arr[j]<arr[sidx]){
                 sidx=j;
             }
         }
